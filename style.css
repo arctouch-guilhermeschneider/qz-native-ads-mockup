@@ -24,7 +24,7 @@ a {
   display: black;
   margin-top: 40px;
 }
-.card-container {
+.ad-container {
   width: 100%;
   height: auto;
   display: flex;
@@ -134,4 +134,37 @@ button:hover {
   opacity: 0.4;
   margin: 16px 0px;
   border-radius: 4px;
+}
+
+@media only screen and (max-width: 1300px) {
+}
+
+@media only screen and (max-width: 1024px) {
+  .main-container {
+    padding: 1rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .ad-container {
+    flex-direction: column;
+  }
+  .ad-image {
+    width: 100%;
+    max-width: 350px;
+    padding: 0;
+    border-style: none;
+  }
+  .ad-copy {
+    padding: 0.3rem;
+    border-top: 1px solid #f0f0f0;
+  }
+}
+
+@media only screen and (max-width: 620px) {
+}
+
+@media only screen and (max-width: 460px) {
+}
+@media only screen and (max-width: 320px) {
 }
