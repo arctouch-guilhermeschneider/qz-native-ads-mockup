@@ -44,6 +44,7 @@ a {
 .ad-image img {
   height: auto;
   width: 100%;
+  border: dashed 1px #f0f0f0;
 }
 .ad-copy {
   padding: 1.35rem;
@@ -146,6 +147,9 @@ button:hover {
 }
 
 @media only screen and (max-width: 768px) {
+}
+
+@media only screen and (max-width: 620px) {
   .ad-container {
     flex-direction: column;
   }
@@ -159,9 +163,6 @@ button:hover {
     padding: 0.3rem;
     border-top: 1px solid #f0f0f0;
   }
-}
-
-@media only screen and (max-width: 620px) {
 }
 
 @media only screen and (max-width: 460px) {
