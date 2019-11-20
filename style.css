@@ -203,4 +203,11 @@ button:hover {
 .nav li {
   list-style: none;
   background-color: #fff;
+  padding: 8px;
+  background-color: #3ccfcf;
+  color: white;
+}
+.nav li:hover {
+  background-color: #ffcd1f;
+  color: #455358;
 }
