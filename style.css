@@ -40,6 +40,9 @@ a {
   width: 40%;
   max-width: 380px;
 }
+.logo {
+  max-width: 120px;
+}
 .ad-image img {
   height: auto;
   width: 100%;
@@ -177,6 +180,9 @@ button:hover {
   }
   .sixteen-nine .ad-image {
     width: 100%;
+  }
+  .logo {
+    margin-top: 16px;
   }
 }
 
